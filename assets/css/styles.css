@@ -1,13 +1,13 @@
 /* Universal selector */
 * {
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    margin: 5px; 
+    padding: 15px;
 }
 /* Element selectors */
 body {
     background-color: rgb(0, 183, 255);
     border: 10px solid rgb(41, 41, 222);
-    padding: 20px;
-    margin: 20px;
 }
 header {
     background-color: rgb(49, 137, 49);
@@ -18,15 +18,11 @@ main {
 }
 h1, h2 {
     color: rgb(0, 0, 0);
-    line-height: 100px;
 }
-p {
-    padding: 20px;
-}
+
 
 section {
     background-color: rgb(41, 95, 57);
-    padding: 20px;
 }
 
 footer {
@@ -38,18 +34,18 @@ footer {
     font-weight: bolder;
 }
 .image {
-    display: block;
-    padding: 20px;
+    display: inline;
     background-color: #78398e;
     border: 10px solid rgb(41, 41, 222);
-    margin: 5px;
+    height: 200px;
+    width: 200px;
 }
 
 
 
 /* ID selector */
 
-#email, #github, #portfolio {
+#email, #github, #linkdin {
     background-color: rgb(12, 163, 128);
   }
   

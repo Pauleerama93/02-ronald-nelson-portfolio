@@ -1,3 +1,9 @@
+/* Global Selector */
+/* Add more to root */
+:root {
+    --Green: rgb(6, 84, 6);
+    --light: white; 
+}
 /* Universal selector */
 * {
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
@@ -6,11 +12,11 @@
 }
 /* Element selectors */
 body {
-    background-color: rgb(0, 183, 255);
+    background-color: var(--light);
     border: 10px solid rgb(41, 41, 222);
 }
 header {
-    background-color: rgb(49, 137, 49);
+    background-color: var(--Green);
     text-align: center;
 }
 main {
